@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.featureCard2:hover .featureCardBox {
+    background-image: url('./Images/features2-wave.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+  }
+
+  .featureCard2:hover .featureCardSVG {
+    filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.4));
+    stroke-opacity: 0 !important;
+  }
